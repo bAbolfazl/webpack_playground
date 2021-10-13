@@ -5,5 +5,3 @@ import "../css/mainStyles.scss";
 const root = document.querySelector("#root");
 
 root.textContent = sum(10, 12);
-
-console.log('hi')
