@@ -8,9 +8,8 @@ module.exports = {
   entry: "./src/js/app.js",
 
   module: {
-    rules: [{ test: /\.ts/, use: "ts-loader" }],
-
     rules: [
+      { test: /\.ts$/, loader: "ts-loader" },
       {
         test: /\.scss$/,
         use: [
